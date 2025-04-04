@@ -11,14 +11,14 @@ public class Main {
         int maxGradeNum = statistics.maxGrade();
         int minGradeNum = statistics.minGrade();
         double avgNum = statistics.computeAvg();
-        Graph graph = new Graph();
-        int[] stats = graph.stats();
+        // Graph graph = new Graph();
+        // int[] stats = graph.stats();
         System.out.println("The maximum grade is " + maxGradeNum);
         System.out.println("The minimum grade is " + minGradeNum);   
         System.out.println("The average grade is " + avgNum);
 
-        System.out.println("");
-        System.out.println(Arrays.toString(stats));
+        // System.out.println("");
+        // System.out.println(Arrays.toString(stats));
         // statistics.minGrade();
     }
 }
